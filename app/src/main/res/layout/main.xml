@@ -4,8 +4,8 @@
     android:layout_height="fill_parent"
     android:orientation="vertical" >
 
-    <org.ros.android.view.camera.RosCameraPreviewView
-        android:id="@+id/ros_camera_preview_view"
+    <org.ros.android.view.RosImageView
+        android:id="@+id/ros_image_view"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent" />
 

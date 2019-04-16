@@ -21,6 +21,10 @@ subprojects {
 
 allprojects {
     repositories {
+        maven {
+            url "https://github.com/rosjava/rosjava_mvn_repo/raw/master"
+        }
+        mavenLocal()
         google()
         jcenter()
         
